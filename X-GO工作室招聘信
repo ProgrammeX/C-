@@ -1,0 +1,50 @@
+#include <iostream>
+#include <unistd.h>
+#include <stdlib.h>
+using namespace std;
+
+int main()
+{
+    cout << "号外号外！号外号外！" << endl;
+    sleep(1);
+    cout << "经过我们工作室内部商量，" << endl;
+    sleep(1);
+    cout << "最终决定于今天(2018.12.15)………………" << endl;
+    sleep(3);
+    system("export TERM=xterm && clear");
+    cout << "成立X-GO工作室~~" << endl;
+    sleep(1);
+    cout << "我们发出招聘信息：" << endl;
+    sleep(3);
+    cout << "技术总监：(5名）" << endl;
+    sleep(1);
+    cout << "编程人员：（15名）" << endl;
+    sleep(1);
+    cout << "推广：（3名）" << endl;
+    sleep(1);
+    cout << "要求：必须要有电脑~~" << endl;
+    cout << "要有C++编程经验~~" << endl;
+    sleep(3);
+    system("export TERM=xterm && clear");
+    cout << "你愿意加入我们吗?" << endl;
+    cout << "愿意（填1）" << endl;
+    cout << "不愿意（填除1以外任意数字）" << endl;
+    sleep(1);
+    int a;
+    cin >> a;
+    if(a == 1)
+    {
+        system("export TERM=xterm && clear");
+        cout << "真是太好了~~" << endl;
+        sleep(1);
+        cout << "快来加我微信：13522855850（并附上：X-GO+名字+职位)" << endl;
+        sleep(3);
+        cout << "最后附上我们X-GO工作室的图标" << endl;
+        cout << "商标：链接1：http://39.105.159.23:8080/uploads/pic/20181215/1544842893868.jpg" << endl;
+        sleep(1);
+        cout << "商标：链接2：https://server.9yuntu.cn/doc/T1kf01xAryqZaepzk78PMv" << endl;
+        sleep(1);
+        cout << "拜拜~~" << endl;
+        return 0;
+    }
+}
