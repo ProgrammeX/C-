@@ -113,6 +113,7 @@ int main()
     }
     if ( a == 2 )
     {
+        system("export TERM=xterm && clear");
         cout << "拜拜" << endl;
     }
 }
