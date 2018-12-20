@@ -1,0 +1,83 @@
+#include <iostream>
+#include <cstdlib>
+#include <unistd.h>
+using namespace std;
+int main()
+{   
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    system("export TERM=xterm && clear");
+    sleep(1);
+    cout << "预测完成！！！" << endl;
+    sleep(1);
+    system("export TERM=xterm && clear");
+    sleep(3);
+    int a;
+    cout << "你想知道吗？" << endl;
+    cout << "想知道输1，不想知道输2" << endl;
+    cin >> a;
+    if ( a == 1 )
+    {
+        system("export TERM=xterm && clear");
+	    cout << "你今日的颜值是：" << endl;
+        srand(time(0)); 
+	    cout<<rand() %101 << endl;
+	    sleep(3);
+	    system("export TERM=xterm && clear");
+	    cout <<"逗你玩" << endl;
+	    cout<<"你的颜值高机器无法判断" << endl;
+	    sleep(3);
+	    system("export TERM=xterm && clear");
+	    return 0;
+    }
+    if ( a == 2 )
+    {
+        system("export TERM=xterm && clear");
+        cout << "再见" << endl;
+    }
+}
