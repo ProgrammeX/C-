@@ -1,0 +1,118 @@
+#include <iostream>
+#include <cstdlib>
+#include <stdlib.h>
+#include <unistd.h>
+using namespace std;
+int main()
+{  
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中…………" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    cout << "预测中" << endl;
+    usleep(400000);
+    system("export TERM=xterm && clear");
+    for(int i = 1;i <= 100;i++)
+        {
+        cout << "加载中" << i << "%" << endl; 
+        usleep(40000);
+        system("export TERM=xterm && clear");
+        }
+    system("export TERM=xterm && clear");
+    cout << "预测完成！！" << endl;
+    sleep(3);
+    int a;
+    cout << "你想知道吗？" << endl;
+    cout << "想知道输1，不想知道输2" << endl;
+    cin >> a;
+    if ( a == 1 )
+    {
+        system("export TERM=xterm && clear");
+	cout << "你的期末成绩是：" << endl;
+    srand(time(0)); 
+	cout<< 80 + rand() % 21;
+    return 0;
+    }
+    if ( a == 2 )
+    {
+        cout << "拜拜" << endl;
+    }
+}
