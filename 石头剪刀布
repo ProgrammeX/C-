@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main()
+{
+    cout << "剪刀出0 石头出1 布出2" << endl;
+    srand(time(0));
+    cout << rand() % 3 ;
+    return 0;
+}
